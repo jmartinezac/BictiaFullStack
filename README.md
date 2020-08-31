@@ -37,5 +37,6 @@ Implementación de una página web para la transformación digital de la difusi�
 
 ---
 ## Herramientas de Mockups
+* Adobe XD
 * MockFlow
 * Balsamiq
