@@ -1,3 +1,9 @@
+/* Css Header */
+
+.myNavbar {
+    background-color: #f2f0eb;
+}
+
 .myNavbar a {
     color: #000000 !important;
     font-family: 'Open Sans', sans-serif;
@@ -15,8 +21,9 @@
 
 .masthead {
     text-align: center;
-    padding-top: 20rem;
+    padding-top: 10rem;
     padding-bottom: 8rem;
+    margin-top: 8rem;
 
 }
 
@@ -26,9 +33,7 @@
     color: #fff;
 }
 
-.myNavbar {
-    background-color: #f2f0eb;
-}
+
 
 .logo {
     width: 130px;
@@ -55,15 +60,85 @@
 }
 
 .myMain {
-    height: 2000px;
+    height: 1000px;
 }
 
 
-.btnSearch{
-    background-color: #5196a6;
+.btnSearch {
+    background-color: hsl(191, 34%, 48%);
 }
 
-.btnLocate{
+.btnLocate {
     background-color: #5196a6;
+
+}
+
+/* CSS Footer */
+
+
+.CercappFooter {
+    background-color: #f2f0eb;   
+}
+
+.usExp {
+    background-color: #91d7f2;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+}
+
+.listaAcerca {
+    list-style: none;
     
-} 
+}
+
+.iconSocial {
+    background: transparent !important;
+    border: none;
+    margin: auto;
+    font-size: 2rem;
+}
+
+.iconSocial a{
+    text-decoration: none;
+}
+
+.textoAfuera {
+    padding: 40px 40px 0px 0px;
+}
+
+.cajaMargen {
+    padding: 15px;
+    margin: 10px;
+}
+
+.fotoUsuario {
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.margenCero {
+    padding: 0px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Encode Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 700;
+    color: #5196a6;
+}
+
+h3 {
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
