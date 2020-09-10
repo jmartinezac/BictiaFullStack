@@ -100,7 +100,11 @@
 }
 
 .iconSocial a{
+    color: #000000;
     text-decoration: none;
+}
+.iconSocial a:hover{
+    transform: scale(0.9);
 }
 
 .textoAfuera {
