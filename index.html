@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assets/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2 class="py-3 d-flex justify-content-center">Mas populares Cercapp</h2>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+            <!-- <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+                </ol> -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card mb-3 mt-3 ml-3 mr-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="Images/Monkey.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <div class="d-flex flex-column">
+                                        <div class="inicio d-flex flex-row justify-content-between">
+                                            <h5 class="card-title">BAR RESTAURANTE MONKEY <br>
+                                                <form>
+                                                    <p class="clasificacion">
+                                                        <input id="radio1" type="radio" name="estrellas" value="5">
+
+                                                        <label for="radio1">★</label>
+
+                                                        <input id="radio2" type="radio" name="estrellas" value="4">
+
+                                                        <label for="radio2">★</label>
+
+                                                        <input id="radio3" type="radio" name="estrellas" value="3">
+
+                                                        <label for="radio3">★</label>
+
+                                                        <input id="radio4" type="radio" name="estrellas" value="2">
+
+                                                        <label for="radio4">★</label>
+
+                                                        <input id="radio5" type="radio" name="estrellas" value="1">
+
+                                                        <label for="radio5">★</label>
+                                                    </p>
+                                                    <small class="text-muted peq">Clasificación del
+                                                        establecimiento</small>
+                                                </form>
+                                            </h5>
+
+                                            <div class="perfil">
+                                                <img src="Images/Monkey.jpg" class="card-img" alt="Perfil">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 mt-3 ml-3 mr-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="Images/Monkey.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <div class="d-flex flex-column">
+                                        <div class="inicio d-flex flex-row justify-content-between">
+                                            <h5 class="card-title">BAR RESTAURANTE MONKEY <br>
+                                                <form>
+                                                    <p class="clasificacion">
+                                                        <input id="radio6" type="radio" name="estrellas" value="5">
+
+                                                        <label for="radio6">★</label>
+
+                                                        <input id="radio7" type="radio" name="estrellas" value="4">
+
+                                                        <label for="radio7">★</label>
+
+                                                        <input id="radio8" type="radio" name="estrellas" value="3">
+
+                                                        <label for="radio8">★</label>
+
+                                                        <input id="radio9" type="radio" name="estrellas" value="2">
+
+                                                        <label for="radio9">★</label>
+
+                                                        <input id="radio10" type="radio" name="estrellas" value="1">
+
+                                                        <label for="radio10">★</label>
+                                                    </p>
+                                                    <small class="text-muted peq">Clasificación del
+                                                        establecimiento</small>
+                                                </form>
+                                            </h5>
+
+                                            <div class="perfil">
+                                                <img src="Images/Monkey.jpg" class="card-img" alt="Perfil">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 mt-3 ml-3 mr-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="Images/Monkey.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <div class="d-flex flex-column">
+                                        <div class="inicio d-flex flex-row justify-content-between">
+                                            <h5 class="card-title">BAR RESTAURANTE MONKEY <br>
+                                                <form>
+                                                    <p class="clasificacion">
+                                                        <input id="radio11" type="radio" name="estrellas" value="5">
+
+                                                        <label for="radio11">★</label>
+
+                                                        <input id="radio12" type="radio" name="estrellas" value="4">
+
+                                                        <label for="radio12">★</label>
+
+                                                        <input id="radio13" type="radio" name="estrellas" value="3">
+
+                                                        <label for="radio13">★</label>
+
+                                                        <input id="radio14" type="radio" name="estrellas" value="2">
+
+                                                        <label for="radio14">★</label>
+
+                                                        <input id="radio15" type="radio" name="estrellas" value="1">
+
+                                                        <label for="radio15">★</label>
+                                                    </p>
+                                                    <small class="text-muted peq">Clasificación del
+                                                        establecimiento</small>
+                                                </form>
+                                            </h5>
+
+                                            <div class="perfil">
+                                                <img src="Images/Monkey.jpg" class="card-img" alt="Perfil">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+
+                    <div class="card mb-3 mt-3 ml-3 mr-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="Images/Monkey.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <div class="d-flex flex-column">
+                                        <div class="inicio d-flex flex-row justify-content-between">
+                                            <h5 class="card-title">BAR RESTAURANTE MONKEY <br>
+                                                <form>
+                                                    <p class="clasificacion">
+                                                        <input id="radio1" type="radio" name="estrellas" value="5">
+
+                                                        <label for="radio1">★</label>
+
+                                                        <input id="radio2" type="radio" name="estrellas" value="4">
+
+                                                        <label for="radio2">★</label>
+
+                                                        <input id="radio3" type="radio" name="estrellas" value="3">
+
+                                                        <label for="radio3">★</label>
+
+                                                        <input id="radio4" type="radio" name="estrellas" value="2">
+
+                                                        <label for="radio4">★</label>
+
+                                                        <input id="radio5" type="radio" name="estrellas" value="1">
+
+                                                        <label for="radio5">★</label>
+                                                    </p>
+                                                    <small class="text-muted peq">Clasificación del
+                                                        establecimiento</small>
+                                                </form>
+                                            </h5>
+
+                                            <div class="perfil">
+                                                <img src="Images/Monkey.jpg" class="card-img" alt="Perfil">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 mt-3 ml-3 mr-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="Images/Monkey.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <div class="d-flex flex-column">
+                                        <div class="inicio d-flex flex-row justify-content-between">
+                                            <h5 class="card-title">BAR RESTAURANTE MONKEY <br>
+                                                <form>
+                                                    <p class="clasificacion">
+                                                        <input id="radio6" type="radio" name="estrellas" value="5">
+
+                                                        <label for="radio6">★</label>
+
+                                                        <input id="radio7" type="radio" name="estrellas" value="4">
+
+                                                        <label for="radio7">★</label>
+
+                                                        <input id="radio8" type="radio" name="estrellas" value="3">
+
+                                                        <label for="radio8">★</label>
+
+                                                        <input id="radio9" type="radio" name="estrellas" value="2">
+
+                                                        <label for="radio9">★</label>
+
+                                                        <input id="radio10" type="radio" name="estrellas" value="1">
+
+                                                        <label for="radio10">★</label>
+                                                    </p>
+                                                    <small class="text-muted peq">Clasificación del
+                                                        establecimiento</small>
+                                                </form>
+                                            </h5>
+
+                                            <div class="perfil">
+                                                <img src="Images/Monkey.jpg" class="card-img" alt="Perfil">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 mt-3 ml-3 mr-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="Images/Monkey.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <div class="d-flex flex-column">
+                                        <div class="inicio d-flex flex-row justify-content-between">
+                                            <h5 class="card-title">BAR RESTAURANTE MONKEY <br>
+                                                <form>
+                                                    <p class="clasificacion">
+                                                        <input id="radio11" type="radio" name="estrellas" value="5">
+
+                                                        <label for="radio11">★</label>
+
+                                                        <input id="radio12" type="radio" name="estrellas" value="4">
+
+                                                        <label for="radio12">★</label>
+
+                                                        <input id="radio13" type="radio" name="estrellas" value="3">
+
+                                                        <label for="radio13">★</label>
+
+                                                        <input id="radio14" type="radio" name="estrellas" value="2">
+
+                                                        <label for="radio14">★</label>
+
+                                                        <input id="radio15" type="radio" name="estrellas" value="1">
+
+                                                        <label for="radio15">★</label>
+                                                    </p>
+                                                    <small class="text-muted peq">Clasificación del
+                                                        establecimiento</small>
+                                                </form>
+                                            </h5>
+
+                                            <div class="perfil">
+                                                <img src="Images/Monkey.jpg" class="card-img" alt="Perfil">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card mb-3 mt-3 ml-3 mr-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="Images/Monkey.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <div class="d-flex flex-column">
+                                        <div class="inicio d-flex flex-row justify-content-between">
+                                            <h5 class="card-title">BAR RESTAURANTE MONKEY <br>
+                                                <form>
+                                                    <p class="clasificacion">
+                                                        <input id="radio1" type="radio" name="estrellas" value="5">
+
+                                                        <label for="radio1">★</label>
+
+                                                        <input id="radio2" type="radio" name="estrellas" value="4">
+
+                                                        <label for="radio2">★</label>
+
+                                                        <input id="radio3" type="radio" name="estrellas" value="3">
+
+                                                        <label for="radio3">★</label>
+
+                                                        <input id="radio4" type="radio" name="estrellas" value="2">
+
+                                                        <label for="radio4">★</label>
+
+                                                        <input id="radio5" type="radio" name="estrellas" value="1">
+
+                                                        <label for="radio5">★</label>
+                                                    </p>
+                                                    <small class="text-muted peq">Clasificación del
+                                                        establecimiento</small>
+                                                </form>
+                                            </h5>
+
+                                            <div class="perfil">
+                                                <img src="Images/Monkey.jpg" class="card-img" alt="Perfil">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 mt-3 ml-3 mr-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="Images/Monkey.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <div class="d-flex flex-column">
+                                        <div class="inicio d-flex flex-row justify-content-between">
+                                            <h5 class="card-title">BAR RESTAURANTE MONKEY <br>
+                                                <form>
+                                                    <p class="clasificacion">
+                                                        <input id="radio6" type="radio" name="estrellas" value="5">
+
+                                                        <label for="radio6">★</label>
+
+                                                        <input id="radio7" type="radio" name="estrellas" value="4">
+
+                                                        <label for="radio7">★</label>
+
+                                                        <input id="radio8" type="radio" name="estrellas" value="3">
+
+                                                        <label for="radio8">★</label>
+
+                                                        <input id="radio9" type="radio" name="estrellas" value="2">
+
+                                                        <label for="radio9">★</label>
+
+                                                        <input id="radio10" type="radio" name="estrellas" value="1">
+
+                                                        <label for="radio10">★</label>
+                                                    </p>
+                                                    <small class="text-muted peq">Clasificación del
+                                                        establecimiento</small>
+                                                </form>
+                                            </h5>
+
+                                            <div class="perfil">
+                                                <img src="Images/Monkey.jpg" class="card-img" alt="Perfil">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 mt-3 ml-3 mr-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="Images/Monkey.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <div class="d-flex flex-column">
+                                        <div class="inicio d-flex flex-row justify-content-between">
+                                            <h5 class="card-title">BAR RESTAURANTE MONKEY <br>
+                                                <form>
+                                                    <p class="clasificacion">
+                                                        <input id="radio11" type="radio" name="estrellas" value="5">
+
+                                                        <label for="radio11">★</label>
+
+                                                        <input id="radio12" type="radio" name="estrellas" value="4">
+
+                                                        <label for="radio12">★</label>
+
+                                                        <input id="radio13" type="radio" name="estrellas" value="3">
+
+                                                        <label for="radio13">★</label>
+
+                                                        <input id="radio14" type="radio" name="estrellas" value="2">
+
+                                                        <label for="radio14">★</label>
+
+                                                        <input id="radio15" type="radio" name="estrellas" value="1">
+
+                                                        <label for="radio15">★</label>
+                                                    </p>
+                                                    <small class="text-muted peq">Clasificación del
+                                                        establecimiento</small>
+                                                </form>
+                                            </h5>
+
+                                            <div class="perfil">
+                                                <img src="Images/Monkey.jpg" class="card-img" alt="Perfil">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="mb-3 carousel-control-prev-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a> 
+            <div class="d-flex justify-content-center">
+                <img src="Images/Flecha.svg" href="#carouselExampleControls" alt="Mas Establecimientos" height="40px" width="90px" role="button" data-slide="next">
+            </div>       
+            <a class="d-flex justify-content-center aling-items-center mt-3" href="#carouselExampleControls" style="text-decoration:none;" role="button" data-slide="next">
+                <span class="boton" aria-hidden="true">MAS ESTABLECIMIENTOS</span>
+                <!-- <span class="sr-only">Next</span> -->
+            </a>  
+        </div> 
+            
+    
+    </div>
+
+  
+    
+</body>
+
+</html>
