@@ -1,5 +1,8 @@
 /* Css Header */
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Encode Sans', sans-serif;
 }
 
@@ -116,19 +119,20 @@ h1, h2, h3, h4 {
     transform: scale(0.9);
 }
 
-.myCard{
-background-color: #f2955e;
+.myCard {
+    background-color: #f2955e;
 }
 
-.myCard small{
+.myCard small {
     color: #f2f0eb;
 }
-.myCard a{
+
+.myCard a {
     text-decoration: none;
     color: #000000;
 }
 
-.myCard-body img{
+.myCard-body img {
     height: 50px;
     width: 50px;
 }
