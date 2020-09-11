@@ -1,0 +1,67 @@
+/* Natalia */
+.contenedor-general{    
+    justify-content: center;
+    align-items: center; 
+    height: 470px;
+    width: 1000px;
+}
+
+.contenedor-secundario{
+height: 370px;
+width:220px;
+
+}
+
+.EventosP{
+    text-align:center;
+    margin-top:50px;
+    margin-bottom: 10px;
+    
+}
+
+.card-img-overlay{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    }
+    
+.carrusel1n{
+    height: 310px;
+    width: 495px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.carrusel2n{
+    width: 250px;
+    height: 245px;
+    font-size: 9px;
+}
+
+.carrusel3n{
+    height: 400px;
+    width: 245px;
+    font-size: 9px;
+}
+
+.contenedor-2{
+    height: 300px;
+    width: 50px;
+    display: flex;
+}
+
+.seccion2{
+    
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+    height: 250px;
+    width: 1000px;    
+}
+
+.boton{
+    align-items: center; 
+}
+
+
+/* Natalia */
