@@ -1,4 +1,7 @@
 /* Css Header */
+h1, h2, h3, h4 {
+    font-family: 'Encode Sans', sans-serif;
+}
 
 .myNavbar {
     background-color: #f2f0eb;
@@ -77,19 +80,24 @@
 
 
 .CercappFooter {
-    background-color: #f2f0eb;   
+    background-color: #f2f0eb;
 }
 
 .usExp {
     background-color: #91d7f2;
-    width: 100%;
-    padding: 40px;
-    display: flex;
+    padding: 1rem;
 }
 
 .listaAcerca {
     list-style: none;
-    
+}
+
+.listaAcerca li a {
+    text-decoration: none;
+}
+
+.listaAcerca li a:hover {
+    color: #000000 !important;
 }
 
 .iconSocial {
@@ -99,21 +107,30 @@
     font-size: 2rem;
 }
 
-.iconSocial a{
+.iconSocial a {
     color: #000000;
     text-decoration: none;
 }
-.iconSocial a:hover{
+
+.iconSocial a:hover {
     transform: scale(0.9);
 }
 
-.textoAfuera {
-    padding: 40px 40px 0px 0px;
+.myCard{
+background-color: #f2955e;
 }
 
-.cajaMargen {
-    padding: 15px;
-    margin: 10px;
+.myCard small{
+    color: #f2f0eb;
+}
+.myCard a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.myCard-body img{
+    height: 50px;
+    width: 50px;
 }
 
 .fotoUsuario {
@@ -123,25 +140,6 @@
     border-radius: 10px;
 }
 
-.margenCero {
-    padding: 0px;
-    margin: auto;
-}
-
-h1 {
-    font-family: 'Encode Sans', sans-serif;
-}
-
-h2 {
-    font-family: 'Encode Sans', sans-serif;
-    font-weight: 700;
-    color: #5196a6;
-}
-
-h3 {
-    font-family: 'Encode Sans', sans-serif;
-    font-weight: 700;
-}
 
 body {
     font-family: 'Open Sans', sans-serif;

@@ -103,60 +103,149 @@
     </header>
 
     <main class="myMain">
-        <section class="container"></section>
+        <section class="container">
+
+            <div class="card myCard mb-3 shadow" style="max-width: 80%;">
+                <div class="row no-gutters">
+                    <div class="col-md-4 align-self-center text-center p-2">
+                        <img src="./assets/img/restauranteazul.jpg" class="card-img rounded" alt="...">
+                        <a href="">
+                            <h5 class="card-title pt-2">Restaurante Azul</h5>
+                        </a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body myCard-body">
+                            <div class="row justify-content-between px-3">
+                                <a href="">
+                                    <h4 class="card-title">Marianella M</h4>
+                                </a>
+                                <img src="./assets/img/usuario1.jpg" alt="" class="rounded-circle shadow-sm">
+                            </div>
+                            <p class="card-text pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
+                                vehicula nibh, id laoreet neque. In semper egestas.
+                            </p>
+                            <p class="card-text"><small>Actualizado hace 3 mins...</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <div class="carousel-item active " data-interval="10000"> -->
+
     </main>
 
 
 
     <section class="container-fluid usExp" id="Experiencias">
-        <div class="container usExp flex-row">
-            <div class="textoAfuera">
+        <div class="d-flex usExp justify-content-between">
+            <div class="textoAfuera col-4">
                 <h2>Experiencias Cercapp</h2>
                 <p>Reseñas de usuarios sobre eventos y establecimientos vividos gracias a Cercapp</p>
             </div>
-            <div class="card mb-2 cajaMargen" style="max-width: 540px;">
-                <div class="row no-gutters">
-                    <div class="col-md-6">
-                        <ul class="list-group list-group-horizontal convInvisible ">
-                            <li class="list-group-item convInvisible margenCero">Natalia Buitrago</li>
-                            <li class="list-group-item convInvisible fotoUsuario"><img src="./assets/img/usuario1.jpg"
-                                    alt="Usuario1" width="60" height="60"></li>
-                        </ul>
-                        <img src="./assets/img/restaurantenaranja.jpg" class="card-img cardImagen" alt="...">
-                        <p><b>El Retiro, Medellín</b></p>
+            <div id="carouselExampleInterval" class="carousel slide col-7" data-ride="carousel">
+                <div class="carousel-inner rounded row">
+                    <div class="carousel-item active align-items-center">
+                        <div class="card myCard mb-3 shadow " style="max-width: 80%;">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 align-self-center text-center p-2">
+                                    <img src="./assets/img/restauranteazul.jpg" class="card-img img-thumbnail" alt="...">
+                                    <a href="">
+                                        <h5 class="card-title pt-2">Restaurante Azul</h5>
+                                    </a>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body myCard-body">
+                                        <div class="row justify-content-between px-3">
+                                            <a href="">
+                                                <h4 class="card-title">Marianella M</h4>
+                                            </a>
+                                            <img src="./assets/img/usuario1.jpg" alt=""
+                                                class="rounded-circle shadow-sm">
+                                        </div>
+                                        <p class="card-text pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Etiam nec
+                                            vehicula nibh, id laoreet neque. In semper egestas.
+                                        </p>
+                                        <p class="card-text"><small>Actualizado hace 3 mins...</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="card-body">
-                            <h5 class="card-title">Reseña de Usuario</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                                pretium ultrices nibh, vel gravida purus semper vel. Nullam convallis quis.</p>
+                    <div class="carousel-item ">
+                        <div class="card myCard mb-3 shadow" style="max-width: 80%;">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 align-self-center text-center p-2">
+                                    <img src="./assets/img/restaurantenaranja.jpg" class="card-img img-thumbnail " alt="...">
+                                    <a href="">
+                                        <h5 class="card-title pt-2">Restaurante Naranja</h5>
+                                    </a>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body myCard-body">
+                                        <div class="row justify-content-between px-3">
+                                            <a href="">
+                                                <h4 class="card-title">Jorge Martinez</h4>
+                                            </a>
+                                            <img src="./assets/img/usuario2.jpg" alt=""
+                                                class="rounded-circle shadow-sm">
+                                        </div>
+                                        <p class="card-text pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Etiam nec
+                                            vehicula nibh, id laoreet neque. In semper egestas.
+                                        </p>
+                                        <p class="card-text"><small>Actualizado hace 15 mins...</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="card myCard mb-3 shadow" style="max-width: 80%;">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 align-self-center text-center p-2">
+                                    <img src="./assets/img//restauranteamarillo.jpg" class="card-img img-thumbnail " alt="...">
+                                    <a href="">
+                                        <h5 class="card-title pt-2">Restaurante Amarillo</h5>
+                                    </a>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body myCard-body">
+                                        <div class="row justify-content-between px-3">
+                                            <a href="">
+                                                <h4 class="card-title">Natalia B</h4>
+                                            </a>
+                                            <img src="./assets/img/usuario3.jpg" alt=""
+                                                class="rounded-circle shadow-sm">
+                                        </div>
+                                        <p class="card-text pt-2">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Etiam nec
+                                            vehicula nibh, id laoreet neque. In semper egestas.
+                                        </p>
+                                        <p class="card-text"><small>Actualizado hace 5 mins...</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="card mb-2 cajaMargen" style="max-width: 540px;">
-                <div class="row no-gutters">
-                    <div class="col-md-6">
-                        <ul class="list-group list-group-horizontal convInvisible">
-                            <li class="list-group-item convInvisible margenCero">Andrés Lugo</li>
-                            <li class="list-group-item convInvisible fotoUsuario"><img src="./assets/img/usuario2.jpg"
-                                    alt="Usuario2" width="60" height="60"></li>
-                        </ul>
-                        <img src="./assets/img/restauranteazul.jpg" class="card-img cardImagen" alt="...">
-                        <p><b>Urbano Café, Bogotá</b></p>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card-body">
-                            <h5 class="card-title">Reseña de usuario</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec
-                                vehicula nibh, id laoreet neque. In semper egestas.</p>
-                        </div>
-                    </div>
-                </div>
+                <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
     </section>
-    
+
 
     <footer class="container-fluid CercappFooter py-3">
         <div class="d-flex row justify-content-between">
@@ -190,7 +279,7 @@
     <!-- LOGIN MODAL-->
 
 
-    <div class="modal fade login" id="loginModal">
+    <!--  <div class="modal fade login" id="loginModal">
         <div class="modal-dialog login animated">
             <div class="modal-content">
                 <div class="modal-header">
@@ -260,7 +349,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 
@@ -275,11 +364,11 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
 
-    <script type="text/javascript">
+    <!--   <script type="text/javascript">
         $(document).ready(function () {
             openLoginModal();
         });
-    </script>
+    </script> -->
 
 
 </body>
