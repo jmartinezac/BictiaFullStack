@@ -39,8 +39,6 @@ h4 {
     color: #fff;
 }
 
-
-
 .logo {
     width: 130px;
     height: 130px;
@@ -65,10 +63,6 @@ h4 {
     color: #000000;
 }
 
-.myMain {
-    height: 1000px;
-}
-
 
 .btnSearch {
     background-color: hsl(191, 34%, 48%);
@@ -86,9 +80,9 @@ h4 {
     background-color: #f2f0eb;
 }
 
-.usExp {
+.Experiencias {
     background-color: #91d7f2;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .listaAcerca {
@@ -119,25 +113,27 @@ h4 {
     transform: scale(0.9);
 }
 
-.myCard {
+
+/* CSS Experiencias */
+.myCardEx {
     background-color: #f2955e;
 }
 
-.myCard small {
+.myCardEx small {
     color: #f2f0eb;
 }
 
-.myCard a {
+.myCardEx a {
     text-decoration: none;
     color: #000000;
 }
 
-.myCard-body img {
+.myCardEx-body img {
     height: 50px;
     width: 50px;
 }
 
-.fotoUsuario {
+.fotoUsuarioEx {
     width: 60px;
     height: 60px;
     padding: 0px;
@@ -148,3 +144,64 @@ h4 {
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* CSS Populares */
+
+.Populares {
+    background-color: #5196a6;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.myCardPop {
+    background-color: #f25041;
+}
+
+.myCardPop small {
+    color: #f2f0eb;
+}
+
+.myCardPop a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.myCardPop-body img {
+    
+    height: 50px;
+    width: 50px;
+}
+.myCardPop-body {
+    
+    color: white;
+}
+
+.fotoUsuarioPop {
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.clasificacion input[type="radio"] {
+    display: none;
+}
+  
+.clasificacion label{      
+    color: grey;
+    font-size: 35px;    
+}
+.clasificacion label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+
+  .btn-Populares {
+      background-color: #f2f0eb;
+      border-width: 5px;
+  }
